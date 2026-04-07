@@ -1,32 +1,32 @@
 <h1 align="center"> Oi guzinho 👋</h1>
 <br><br>
 Atualizar ao mais atual.
-```HTML
+```bash
 sudo apt update && sudo apt upgrade && sudo apt install git
 ```
 <br><br>
 Instalar distro.
-```HTML
+```bash
 pip install distro
 ```
 <br><br>
 Baixar crafty controller.
-```HTML
+```bash
 git clone https://gitlab.com/crafty-controller/crafty-installer-4.0.git
 ```
 <br><br>
 Pasta do crafty.
-```HTML
+```bash
 cd crafty-installer-4.0
 ```
 <br><br>
 Instalar crafty.
-```HTML
+```bash
 sudo ./install_crafty.sh
 ```
 <br><br>
 Iniciar crafty.
-```HTML
+```bash
 /workspaces/servidor/minecraft/run_crafty.sh
 ```
 <br><br>
