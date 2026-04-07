@@ -4,6 +4,9 @@ Atualizar ao mais atual.
 ```bash
 sudo apt update && sudo apt upgrade && sudo apt install git
 ```
+```bash
+pip install foobar
+```
 <br><br>
 Instalar distro.
 ```bash
