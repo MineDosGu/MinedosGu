@@ -1,37 +1,37 @@
-<h1 align="center"> Oi guzinho 👋</h1>
-<br><br>
-Atualizar ao mais atual.
-```bash
-sudo apt update && sudo apt upgrade && sudo apt install git
-```
+# Foobar
+
+Foobar is a Python library for dealing with word pluralization.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
 ```bash
 pip install foobar
 ```
-<br><br>
-Instalar distro.
-```bash
-pip install distro
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
 ```
-<br><br>
-Baixar crafty controller.
-```bash
-git clone https://gitlab.com/crafty-controller/crafty-installer-4.0.git
-```
-<br><br>
-Pasta do crafty.
-```bash
-cd crafty-installer-4.0
-```
-<br><br>
-Instalar crafty.
-```bash
-sudo ./install_crafty.sh
-```
-<br><br>
-Iniciar crafty.
-```bash
-/workspaces/servidor/minecraft/run_crafty.sh
-```
-<br><br>
-Sempre que for querer jogar, execute o comando do "Iniciar crafty", clique em "Abrir" na lateral direita
-depois de executar o comando e mexa no server pelo site do crafty.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
