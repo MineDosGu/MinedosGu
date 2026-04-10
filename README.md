@@ -30,5 +30,11 @@ sudo ./install_crafty.sh
 ## Iniciar crafty
 
 ```bash
-/workspaces/servidor/minecraft/run_crafty.sh
+/workspaces/MinedosGu/minecraft/run_crafty.sh
+```
+
+## Iniciar tailscale
+
+```bash
+sudo tailscaled &
 ```
